@@ -7,10 +7,11 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "app",
+      "prefix": "bwm",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "sass",
+          "spec": false
         }
       },
       "architect": {
@@ -28,7 +29,7 @@
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
-                "./styles"
+                "./styles/"
               ]
             },
             "styles": [
