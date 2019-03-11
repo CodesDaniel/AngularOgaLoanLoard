@@ -6,5 +6,5 @@
 
 ## and go to api/v1/rentals/id to recive a specific rental the rentals 
 
-## server/fack-db.js.js produce the fake rentalls
+## server/fake-db.js.js produce the fake rentalls
 
